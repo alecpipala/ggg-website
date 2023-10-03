@@ -1,0 +1,47 @@
+{
+    "bodyDetails": {
+      "name": "Byoomao LY-G d11-9374 A 4",
+      "type": "Sudarsky Class III Gas Giant",
+      "temperature": "640.000000",
+      "atmosphere": {
+        "hydrogen": "72.95",
+        "helium": "27.05",
+        "oxygen": "0",
+        "ammonia": "0",
+        "methane": "0",
+        "water": "0"
+      },
+      "rotationalPeriod": "1.5",
+      "mass": "2263.1943",
+      "gravity": "17.90",
+      "radius": "71709",
+      "axialTilt": "1.5521",
+      "gggNum": "46",
+      "hasRings": "true",
+      "moons": {
+        "totalMoons": "4",
+        "landable": "3",
+        "atmosphericLandable": "0",
+        "moonlet": "+1"
+      },
+      "distanceFromSol": "25506.0",
+      "region": "Galactic Centre",
+      "k10Anomalies": "true"
+    },
+    "orbitDetails": {
+      "orbitalPeriod": "178.4",
+      "semiMajorAxis": "0",
+      "orbitalEccentricity": "0.1882",
+      "orbitalInclination": "-1.54",
+      "argumentOfPeriapsis": "342.94",
+      "distanceToArrival": "1609",
+      "parentStar": "A",
+      "starsInSystem": ["F5 VI", "F9 VI"],
+      "inBinary": "true"
+    },
+    "discoveryDetails": {
+      "discoverer": "CMDR Cyanidex",
+      "discoveryDate": "3309-02-01",
+      "rediscovery": "null"
+    }
+  }

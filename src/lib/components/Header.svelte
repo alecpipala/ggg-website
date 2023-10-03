@@ -1,9 +1,9 @@
 <script>
-    import { AppBar, TabGroup, TabAnchor, Tab } from "@skeletonlabs/skeleton";
+    import { AppBar, TabGroup, TabAnchor, LightSwitch } from "@skeletonlabs/skeleton";
     import { page } from "$app/stores";
 </script>
 
-<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
+<AppBar gridColumns="grid-cols-3 px-4" slotDefault="place-self-center px-4" slotTrail="place-content-end px-4">
     <svelte:fragment slot="lead">
         <h1 class="h1">edGGG</h1>
     </svelte:fragment>
@@ -27,8 +27,6 @@
     </TabAnchor>
     </TabGroup>
     <svelte:fragment slot="trail">
-        <h1 class="h1">
-            <a href="https://edsm.net" target="_blank">EDSM</a>
-        </h1>
+        <LightSwitch />
     </svelte:fragment>
 </AppBar>
