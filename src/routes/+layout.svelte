@@ -10,7 +10,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<AppShell>
+<AppShell regionPage="scroll-smooth">
 	<svelte:fragment slot="header">
 		<Header />
 	</svelte:fragment>
