@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.postcss';
+	import '$lib/ed3d/css/styles.css'
 
 	// Floating UI for Popups
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
@@ -19,4 +20,3 @@
 		<Footer />
 	</svelte:fragment>
 </AppShell>
-
