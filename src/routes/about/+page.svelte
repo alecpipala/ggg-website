@@ -9,18 +9,18 @@
     <div use:tocCrawler={{ mode: 'generate' }} class="p-4 space-y-4">
         <h1 class="h1">About</h1>
         <div>
-            <h2 class="h2">Introduction</h2>
+            <h2 class="h2 mb-5">Introduction</h2>
             <h3 class="h3">What is a GGG?</h3>
-            <p>Green Gas Giants (GGGs) are a rare gas giant subtype in Elite: Dangerous. These planets differ from the standard gas giants as they show unique colors in their
+            <p class="mb-5">Green Gas Giants (GGGs) are a rare gas giant subtype in Elite: Dangerous. These planets differ from the standard gas giants as they show unique colors in their
                 upper atmospheres, most notably bright neon green, for which they are named. Universal Cartographics attributes these vibrant colors to exotic bioluminescent
-                radioplankton that absorb energy from the gas giant's intese radiation flux. Their colors and cloud patterns vary wildly between classes, as well as within a 
+                radioplankton that absorb energy from the gas giant's intense radiation flux. Their colors and cloud patterns vary wildly between classes, as well as within a 
                 given class.
                 <br /><br />
                 In reality however, these green planets were not originally meant to be in the game, and are likely the result of an oversight in the color generation of the 
                 planet. There are theories about how some gas giants turn green, but overall there is currently no consistent method of predicting if a gas giant will be green or not.
             </p>
             <h3 class="h3">History</h3>
-            <p>The first Green Gas Giant was discovered in 3301 by CMDR Kelly Eldridge. Its location was originally lost for 7 years, eventually being rediscovered by the <em>At The Eldritch Gate</em> expedition 
+            <p class="mb-5">The first Green Gas Giant was discovered in 3301 by CMDR Kelly Eldridge. Its location was originally lost for 7 years, eventually being rediscovered by the <em>At The Eldritch Gate</em> expedition 
              in the Shaulai DL-P d5-274 system. The next four Green Gas Giants discovered were all gas giants that bore either water-based for ammonia-based airborne life within their atmospheres, so it was
              originally believed that only those gas giants were able to turn green. That was the case until late 3303 when a Class III Green Gas Giant was discovered in the Floasly TE-X d2-25 system.
              <br /><br />
@@ -31,6 +31,7 @@
             was not consistent for other classes; Multiple gas giants were found that shared a specific surface temperature with a Green Gas Giant that turned out not to be green. Alas, the mystery of GGG
             generation continues to allude us. 
             </p>
+    
             <h3 class="h3">GGG Classes</h3>
             <p>
                 Almost all gas giant classes in the game have a known GGG variant, and they are the following:
@@ -46,7 +47,7 @@
                 </ul>
                 <br />
             <p>The following gas giant classes do <strong>not</strong> currently have a known GGG variant:</p>
-                <ul class="list-disc pl-5">
+                <ul class="list-disc pl-5 mb-5">
                     <li>Class V</li>
                     <li>Helium-Rich Gas Giant</li>
                     <li>Helium Gas Giant</li>
@@ -56,16 +57,16 @@
                 can use to determine if you have done so.
             </p>
         </div>
-        <div class="card p-4 flex">
+        <div class="card p-4 flex items-center">
             <div>
             <h3 class="h3">FSS</h3>
             <p>GGGs do not have a special area on the FSS spectrum; A Class I GGG will be located where normal Class Is usually show up. Viewing a Green Gas Giant on the FSS easily resolves the bright cloud colors in its upper atmosphere. Keep in mind that some planets have more discolored regions than
-                others. It might not be immediately obvious where on the planet the green colors are at. Some do not have any noticeable green <em>at all</em>
+                others. It might not be immediately obvious where on the planet the green colors are at. Some do not have any noticeable green <em>at all</em>.
             </p>
             </div>
-            <img src="" alt="A Green Gas Giant in the FSS Scanner" />
+            <img class="object-scale-down w-1/2 rounded-md" src="https://promethium.nyc3.cdn.digitaloceanspaces.com/misc/fss-ggg.jpg" alt="A Green Gas Giant in the FSS Scanner" />
         </div>
-        <div class="card p-4 flex">
+        <div class="card p-4 flex flex-row-reverse">
             <div>
             <h3 class="h3">Codex Alerts</h3>
             <p>The first time you come across a GGG of a certain class in a region, you will be notified of your discovery via a codex notification. This is the quickest way to confirm if a 
@@ -75,7 +76,7 @@
             </div>
             <img src="" alt="A Green Gas Giant codex notification" />
         </div>
-        <div class="card p-4 flex">
+        <div class="card p-4 flex items-center justify-between">
             <div>
             <h3 class="h3">Planet Description</h3>
             <p>
@@ -83,51 +84,49 @@
                 with "This particular gas giant exhibits vivid coloration..." or "Luminous vapour can be detected in the planet's upper atmosphere..."
             </p>
             </div>
-            <img src="" alt="Planet description of a GGG" />
+            <img class="object-scale-down w-1/3 rounded-md" src="https://promethium.nyc3.cdn.digitaloceanspaces.com/misc/sys-map.png" alt="Planet description of a GGG" />
         </div>
-        <div class="card p-4 flex">
+        <div class="card p-4 flex items-center justify-between flex-row-reverse">
             <div>
             <h3 class="h3">"Green Light"</h3>
             <p>Some GGGs display a bright green "pinprick" of light when far away. It is unknown why only some planets do this and some do not.</p>
             </div>
-            <img src="" alt="A green light cast from a GGG in-system" />
+            <img  src="" alt="A green light cast from a GGG in-system" />
         </div>
-        <div class="card p-4 flex"> TODO: Fix the flex display on this card thx
+        <div class="card p-4 flex text-left items-center">
             <div>
-                <div>
                 <h3 class="h3">Surface Temperature</h3>
                  <p>Water-Based Life GGGs and Class III GGGs have certain temperatures that are confirmed to always make a gas giant green. Using third-party tools such as <em>Elite: Dangerous Observatory</em>,
                 custom criteria can be written to scan the game journal files and can notify you if a gas giant matches a matching temperature. 
                 </p>
-                <br />
-                <!-- <div class="flex">
+                <div class="flex justify-center">
                     <div>
-                        <span>GGGWBL Temps:</span>
+                        <span class="text-center">GGGWBL Temps:</span>
                         <ul class="list-disc pl-5">
-                        <li>158.000000K</li>
-                        <li>176.666641K</li>
-                         <li>176.666656K</li>
-                         <li>176.666672K</li>
-                        <li>176.666687K</li>
-                        <li>217.499985K</li>
+                            <li>158.000000K</li>
+                            <li>176.666641K</li>
+                            <li>176.666656K</li>
+                            <li>176.666672K</li>
+                            <li>176.666687K</li>
+                            <li>217.499985K</li>
                         </ul>
                     </div>
                     <div>
-                        <span>Class III Temps:</span>
-                        <ul class="list-disc pl-5">
-                        <li>370.000000K</li>
-                        <li>550.000000K</li>
-                         <li>580.000000K</li>
-                        <li>610.000000K</li>
-                        <li>640.000000K</li>
-                        <li>700.000000K</li>
+                        <span class="pl-5">Class III Temps:</span>
+                        <ul class="list-disc pl-10">
+                            <li>370.000000K</li>
+                            <li>550.000000K</li>
+                            <li>580.000000K</li>
+                            <li>610.000000K</li>
+                            <li>640.000000K</li>
+                            <li>700.000000K</li>
                         </ul>
                     </div>
-                    </div> -->
-                    <img src="" alt="Confirmed GGG Temperature Notification in ED:O" />
                 </div>
             </div>
+            <img src="" alt="Confirmed GGG Temperature Notification in ED:O" />
         </div>
+        
         <div class="card p-4 flex">
             <div>
             <h3 class="h3">K-10 Type Anomalies</h3>
