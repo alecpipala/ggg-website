@@ -127,7 +127,7 @@
             <img src="" alt="Confirmed GGG Temperature Notification in ED:O" />
         </div>
         
-        <div class="card p-4 flex">
+        <div class="card p-4 flex flex-row-reverse">
             <div>
             <h3 class="h3">K-10 Type Anomalies</h3>
             <p>If you are travelling within either the Galactic Centre or Ryker's Hope galactic regions, you have the chance to encounter K-10 Type anomalies. These anomalies
